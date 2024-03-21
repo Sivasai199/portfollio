@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(35, 37, 39);
+}
+.navbar {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbarlinks ul {
+  display: flex;
+  justify-content: center;
+}
+.navbarlinks li {
+  list-style: none;
+}
+.navbarlinks li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  font-size: 32px;
+  display: block;
+  transition: all 0.2s linear;
+}
+.navbarlinks li:hover a {
+  color: rgb(252, 169, 3);
+}
+.togglebutton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+.togglebutton .bars {
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 92vh;
+  margin-top: -2%;
+}
+
+.nameText {
+  font-size: 78px;
+  color: rgb(246, 183, 55);
+  background: linear-gradient(#ffffff, rgba(255, 170, 1));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nameTag {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.mainImage img {
+  width: 600px;
+  height: 570px;
+}
+.quote {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-10vh);
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.headings {
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.allCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.card {
+  margin: 20px;
+  width: 380px;
+  height: 525px;
+  border-radius: 10px;
+  color: rgb(30, 33, 36);
+  font-size: 18px;
+  background: #ffffff;
+  box-shadow: 5px 5px 10px -50px rgba(255, 255, 255, 0.1);
+}
+.cardImage {
+  width: 380px;
+  height: 230px;
+  border-radius: 10px 10px 0px 0px;
+}
+.cardData {
+  padding: 10px;
+}
+.cardTitle {
+  color: rgb(255, 170, 0);
+}
+.cardText {
+  padding-bottom: 10px;
+}
+.cardBtns {
+  display: flex;
+  justify-content: center;
+}
+.cardBtn {
+  padding: 10px;
+  background-color: rgb(255, 170, 0);
+  margin-right: 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.cardBtn:hover {
+  background-color: rgb(231, 171, 50);
+}
+.cardBtn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.myResume {
+  color: #ffffff;
+  /* font-size: 28px; */
+  display: flex;
+  justify-content: center;
+}
+.resumeLink {
+  margin-left: 10px;
+  text-decoration: none;
+}
+.resumeLink:link,
+.resumeLink:visited {
+  color: rgb(252, 169, 3);
+}
+
+.skillLogos {
+  display: flex;
+  justify-content: center;
+}
+.skillLogos img {
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px;
+  margin-bottom: 50px;
+  transition: all 0.2s ease;
+}
+
+.skillLogos img:hover {
+  filter: grayscale(0.6);
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.myProfile {
+  width: 450px;
+  height: 550px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px -20px rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.myProfileData {
+  padding: 30px;
+  color: rgb(30, 33, 36);
+}
+
+.myProfileData h2 {
+  font-size: 30px;
+}
+.myProfileData p {
+  font-size: 16px;
+  opacity: 0.8;
+  margin: 10px;
+  line-height: 25px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon img {
+  width: 35px;
+  height: 35px;
+  margin: 20px;
+}
+.icon a {
+  text-decoration: none;
+  color: rgb(30, 33, 36);
+}
+.cir1 {
+  width: 480px;
+  height: 600px;
+  background-image: linear-gradient(50deg, #3b00c5, rgb(243, 21, 132));
+  border-radius: 50%;
+  position: absolute;
+  right: -130px;
+  bottom: -400px;
+  background-color: blueviolet;
+  z-index: 1;
+}
+
+.cir2 {
+  width: 500px;
+  height: 450px;
+  background-color: blueviolet;
+
+  background-image: linear-gradient(120deg, #3b00c5, rgb(243, 21, 132));
+
+  border-radius: 50%;
+  position: absolute;
+  left: -200px;
+  bottom: -350px;
+  z-index: 2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #ffffff;
+  padding: 10px;
+  margin-left: -10px;
+}
+.input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  width: 450px;
+  padding: 2px;
+  color: #ffffff;
+  font-size: 22px;
+}
+.input:focus {
+  border-bottom: 3px solid rgb(253, 169, 0);
+  color: #ffffff;
+  background-color: transparent;
+}
+#message::-webkit-scrollbar {
+  display: none;
+}
+.submitBtn {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  color: rgb(246, 178, 43);
+
+  /* color: rgb(253, 169, 0); */
+  background-color: #fff;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+.submitBtn:hover {
+  background-color: rgb(246, 178, 43);
+
+  color: #fff;
+  font-size: 20px;
+}

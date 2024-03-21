@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 770px) {
+  .mainSection {
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+  }
+  .nameText {
+    font-size: 65px;
+  }
+  .nameTag {
+    font-size: 25px;
+  }
+  .mainImage img {
+    width: 370px;
+    height: 260px;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .headings {
+    font-size: 36px;
+    margin-bottom: 25px;
+  }
+  .allCards {
+    width: 100%;
+  }
+  .card {
+    margin: 20px;
+    width: 325px;
+    height: 500px;
+  }
+  .cardImage {
+    width: 325px;
+    height: 230px;
+  }
+  .skillLogos img {
+    width: 125px;
+    height: 125px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .togglebutton {
+    display: flex;
+    z-index: 1;
+  }
+  .navbarlinks {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbarlinks ul {
+    flex-direction: column;
+    width: 100%;
+    background-color: #18191a;
+  }
+
+  .navbarlinks li {
+    text-align: center;
+  }
+  .navbarlinks li a {
+    color: #e4fde1;
+    padding: 0.5rem 1rem;
+  }
+  .navbarlinks.active {
+    display: flex;
+  }
+  .mainSection {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 92vh;
+  }
+  .mainImage img {
+    width: 320px;
+    height: 260px;
+  }
+  .myResume {
+    color: #ffffff;
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .skillLogos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .skillLogos img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 30px;
+    margin-bottom: 50px;
+    transition: all 0.2s ease;
+  }
+  .myProfile {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px -20px rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  .myProfileData {
+    padding: 10px;
+  }
+  .myProfileData p {
+    margin: 5px;
+  }
+  .icon img {
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+  }
+  .cir1 {
+    width: 480px;
+    height: 550px;
+  }
+  .label {
+    padding: 10px;
+  }
+  .input {
+    width: 325px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .card {
+    margin: 10px;
+    width: 310%;
+    height: 500px;
+  }
+  .cardImage {
+    width: 310px;
+    height: 230px;
+  }
+
+  .myProfile {
+    width: 310px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px -20px rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  .input {
+    width: 310px;
+  }
+}
